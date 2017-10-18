@@ -17,7 +17,7 @@ body {
 	font-family: 'Lobster';
 	font-size: 30px;
 	color: white;
-	background-color: black;
+	background-color: black !important;
 	padding: 10px;
 	border-color: white;
 	border-style: solid;
