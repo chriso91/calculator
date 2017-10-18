@@ -1,0 +1,98 @@
+body {
+	background-color: var(--change-color) !important;
+}
+
+:root {
+    --change-color: limegreen;
+}
+
+
+#prodiv{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#probut{
+	font-family: 'Lobster';
+	font-size: 30px;
+	color: white;
+	padding: 10px;
+	border-color: white;
+	border-style: solid;
+}
+
+#probut:hover{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+
+#buttons{
+	width:500px;
+	background-color: white;
+	padding:20px;
+	border-radius: 10px;
+}
+
+.little-but{
+	width:75px;
+	height:75px;
+	border-radius: 50%;
+	border-style: none;
+	margin: 5px;
+
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 30px;
+	background-color: var(--change-color);
+	color: white;
+}
+
+.long-but{
+	width: 150px;
+	height:75px;
+	border-radius: 50%;
+	margin:5px 5px 5px 30px;
+	border-style: none;
+
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 30px;
+	background-color: var(--change-color);;
+	color: white;
+}
+
+.little-but:hover{
+	color: var(--change-color);;
+	background-color: white;
+}
+
+.little-but:active{
+	color:white;
+	background-color: var(--change-color);;
+}
+
+.long-but:hover{
+	color: var(--change-color);;
+	background-color: white;
+}
+
+.long-but:active{
+	color:white;
+	background-color: var(--change-color);;
+}
+
+#box{
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 30px;
+	color:var(--change-color);;
+	text-align: right;
+
+	width: 460px;
+	border-radius: 10px;
+}
